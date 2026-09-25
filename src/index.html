@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ramadan {{RAMADAN_YEAR}} Countdown: Expected Start and End Dates</title>
+  <meta name="description" content="Free Ramadan {{RAMADAN_YEAR}} countdown with the expected first and last day of fasting. Embed it on your website or share it with your community.">
+  <link rel="canonical" href="{{SITE_URL}}">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ramadan {{RAMADAN_YEAR}} Countdown: Expected Start and End Dates">
+  <meta property="og:description" content="Free Ramadan {{RAMADAN_YEAR}} countdown with the expected first and last day of fasting. Embed it on your website or share it with your community.">
+  <meta property="og:url" content="{{SITE_URL}}">
+  <meta property="og:image" content="{{SITE_URL}}og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Ramadan Countdown", "url": "{{SITE_URL}}", "applicationCategory": "LifestyleApplication", "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Free Ramadan {{RAMADAN_YEAR}} countdown with the expected first and last day of fasting. Embed it on your website or share it with your community.", "isBasedOn": "{{LINK_ORIGIN}}/ramadan-{{RAMADAN_YEAR}}", "provider": {"@type": "Organization", "name": "QiblaFind", "url": "{{LINK_ORIGIN}}/"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When is Ramadan {{RAMADAN_YEAR}} expected to start?", "acceptedAnswer": {"@type": "Answer", "text": "The widget shows the calculated start date. The exact first day depends on the moon sighting or official announcement in your country."}}, {"@type": "Question", "name": "Why do countries sometimes start Ramadan on different days?", "acceptedAnswer": {"@type": "Answer", "text": "Some countries rely on a local moon sighting and others on a calculated or official calendar, so the first day can differ by a day between countries."}}, {"@type": "Question", "name": "How long is Ramadan?", "acceptedAnswer": {"@type": "Answer", "text": "Ramadan lasts 29 or 30 days, depending on when the new moon for the following month is sighted or calculated."}}, {"@type": "Question", "name": "Where can I find daily suhoor and iftar times?", "acceptedAnswer": {"@type": "Answer", "text": "Use the full Ramadan timetable on QiblaFind, which lists Fajr and Maghrib for every day of the month."}}]}</script>
+</head>
+<body>
+  <header class="site wrap">
+    <div class="kicker">Free web tool</div>
+    <h1>Ramadan {{RAMADAN_YEAR}} Countdown</h1>
+    <p class="lead">See how many days are left until Ramadan {{RAMADAN_YEAR}}, and its expected first and last day of fasting.</p>
+  </header>
+
+  <main class="wrap">
+    <div class="tool" style="--frame-h-mobile:620px;--frame-h-desktop:660px">
+      <iframe src="{{EMBED_ORIGIN}}/embed/ramadan/{{RAMADAN_YEAR}}" title="Ramadan countdown"></iframe>
+      <a class="open-full" href="{{LINK_ORIGIN}}/ramadan-{{RAMADAN_YEAR}}">Open the full Ramadan {{RAMADAN_YEAR}} timetable →</a>
+    </div>
+
+    <section>
+      <h2>When does Ramadan start?</h2>
+      <p>Ramadan is the ninth month of the Islamic calendar. The dates shown here are calculated in advance. In practice, the start of the month is confirmed by a moon sighting or by your country's official calendar, so the actual first day of fasting where you live can differ by a day. Follow your local mosque or religious authority for the final announcement.</p>
+    </section>
+    <section>
+      <h2>Suhoor and iftar times</h2>
+      <p>The fast runs from dawn to sunset: suhoor ends at the start of Fajr, and iftar is at Maghrib. The full <a href="{{LINK_ORIGIN}}/ramadan-{{RAMADAN_YEAR}}">Ramadan {{RAMADAN_YEAR}} timetable</a> on QiblaFind lists these for every day of the month, and the <a href="{{LINK_ORIGIN}}/prayer-times">prayer times</a> page gives today's times for your location.</p>
+    </section>
+
+    <section>
+      <h2>Frequently asked questions</h2>
+      <h3>When is Ramadan {{RAMADAN_YEAR}} expected to start?</h3>
+      <p>The widget shows the calculated start date. The exact first day depends on the moon sighting or official announcement in your country.</p>
+      <h3>Why do countries sometimes start Ramadan on different days?</h3>
+      <p>Some countries rely on a local moon sighting and others on a calculated or official calendar, so the first day can differ by a day between countries.</p>
+      <h3>How long is Ramadan?</h3>
+      <p>Ramadan lasts 29 or 30 days, depending on when the new moon for the following month is sighted or calculated.</p>
+      <h3>Where can I find daily suhoor and iftar times?</h3>
+      <p>Use the full Ramadan timetable on QiblaFind, which lists Fajr and Maghrib for every day of the month.</p>
+    </section>
+
+    <section>
+      <h2>Add this widget to your website</h2>
+      <p>Count down to Ramadan with your community. Copy the code below into any page. It is free to use and needs no sign-up or API key.</p>
+      <div class="card">
+        <pre id="embed-code">&lt;iframe src=&quot;{{LINK_ORIGIN}}/embed/ramadan/{{RAMADAN_YEAR}}&quot; title=&quot;Ramadan countdown&quot; width=&quot;100%&quot; height=&quot;660&quot; style=&quot;border:0;max-width:100%&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+&lt;p style=&quot;font-size:13px&quot;&gt;&lt;a href=&quot;{{LINK_ORIGIN}}/ramadan-{{RAMADAN_YEAR}}&quot;&gt;Ramadan countdown&lt;/a&gt; by QiblaFind&lt;/p&gt;</pre>
+        <button class="copy" type="button" data-copy="embed-code" data-done="Copied">Copy embed code</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>This page is an open-source showcase of the QiblaFind Ramadan widget. The widget is provided by <a href="{{LINK_ORIGIN}}/">QiblaFind</a>, a free Qibla finder and prayer times site.</p>
+      <nav aria-label="More QiblaFind tools">
+        <a href="{{LINK_ORIGIN}}/">Online Qibla Finder</a>
+        <a href="{{LINK_ORIGIN}}/prayer-times">Prayer times</a>
+        <a href="{{LINK_ORIGIN}}/hijri-calendar">Hijri calendar</a>
+        <a href="{{LINK_ORIGIN}}/ramadan-{{RAMADAN_YEAR}}">Ramadan {{RAMADAN_YEAR}}</a>
+        <a href="{{LINK_ORIGIN}}/mosque-finder">Mosque finder</a>
+        <a href="{{LINK_ORIGIN}}/qibla-direction">Qibla direction by city</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
