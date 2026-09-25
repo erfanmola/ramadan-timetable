@@ -19,7 +19,7 @@ Paste this where you want the widget to appear. It is free, needs no API key, an
 page that allows iframes:
 
 ```html
-<iframe src="https://qiblafind.net/embed/ramadan/2027" title="Ramadan countdown" width="100%" height="660" style="border:0;max-width:100%" loading="lazy"></iframe>
+<iframe src="https://qiblafind.net/embed/ramadan/2027" title="Ramadan countdown" width="100%" height="620" style="border:0;max-width:100%" loading="lazy"></iframe>
 <p style="font-size:13px"><a href="https://qiblafind.net/ramadan-2027">Ramadan countdown</a> by QiblaFind</p>
 ```
 
